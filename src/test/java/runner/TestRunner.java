@@ -10,8 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 				 glue= {"steps"},
 				 plugin= {"html:target/Cucumberreport.html",
 						 "pretty",
-						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-						"timeline:test-output-thread/"		
+//						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+	//					"timeline:test-output-thread/"		
 				},
 				 //tags="@all"  // all scenarios in all feature files will run
 				 //tags="@login" // only login scanerio will run
